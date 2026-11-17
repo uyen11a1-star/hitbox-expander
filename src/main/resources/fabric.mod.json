@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hitbox-expander",
+  "version": "${version}",
+  "name": "Hitbox Expander",
+  "description": "Client-side hitbox x1.25 with toggle GUI.",
+  "authors": ["VANTA"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.vanta.hitbox.HitboxMod"]
+  },
+  "mixins": ["hitbox.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
